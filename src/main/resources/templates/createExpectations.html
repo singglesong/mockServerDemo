@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>createExpectations</title>
+</head>
+<body>
+<h1>参数配置</h1>
+<form action="#" th:action="@{/mock/createExpectations}" th:object="${mockParams}" method="post">
+    <p>Times: <input type="number" th:field="*{times}" /></p>
+    <p>poriority: <input type="number" th:field="*{poriority}"  placeholder="数字范围在-10到10之间"/></p>
+    <p>Time: <input type="number" th:field="*{time}" /></p>
+    <p>TimeUnit: <input type="text" th:field="*{content}" /></p>
+    <p>path: <input type="text" th:field="*{path}" /></p>
+    <p>method: <input type="text" th:field="*{method}" /></p>
+    <p>params: <input type="text" th:field="*{id}" /></p>
+    <p>headers: <input type="text" th:field="*{content}" /></p>
+    <p>cookie: <input type="text" th:field="*{id}" /></p>
+    <p>body: <input type="text" th:field="*{body}" /></p>
+    <p><input type="submit" value="Submit" /> <input type="reset" value="Reset" /></p>
+</form>
+</body>
+</html>

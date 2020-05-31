@@ -1,14 +1,14 @@
 package com.example.mockServerDemo.service;
 
 import com.example.mockServerDemo.model.MockEntity;
+import com.example.mockServerDemo.model.MockParams;
+import com.example.mockServerDemo.utils.MockRequestUtils;
 import org.mockserver.client.MockServerClient;
-import org.mockserver.matchers.Times;
-import org.mockserver.model.HttpRequest;
 import org.mockserver.model.HttpResponse;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
-import java.util.concurrent.TimeUnit;
 
 /**
  * 新建预期值
@@ -17,18 +17,27 @@ import java.util.concurrent.TimeUnit;
 public class ExpectationsService {
 
     @Autowired
-    private static MockServerClient mockServerClient;
+    private  MockServerClient mockServerClient;
+
+    @Value("${mockserver_ip}")
+    private  String ip;
+    @Value("${mockserver_port}")
+    private  Integer port;
 
     /**
      * 组织发送server的body体
-     * @param mockEntity
+     * @param mockParams
      */
-    public void requestMatchers(MockEntity mockEntity){
-        mockServerClient.when(
+    public void requestMatchers( MockParams mockParams){
+        MockEntity mockEntity =new MockEntity();
+        MockRequestUtils.setMockFromParam(mockEntity,mockParams);
+        new MockServerClient(ip,port).when(
                 mockEntity.getHttpRequest()
         ).respond(
-                mockEntity.getHttpResponse()
+                HttpResponse.response().withBody("hello test")
                 );
     }
+
+
 
 }

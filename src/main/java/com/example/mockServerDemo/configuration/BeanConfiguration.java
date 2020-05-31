@@ -1,4 +1,4 @@
-package com.example.mockServerDemo.Configuration;
+package com.example.mockServerDemo.configuration;
 
 import org.mockserver.client.MockServerClient;
 import org.springframework.beans.factory.annotation.Value;

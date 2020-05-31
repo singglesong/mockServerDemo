@@ -9,6 +9,7 @@ import org.mockserver.model.HttpRequest;
 import org.mockserver.model.NottableString;
 
 import java.util.Map;
+import java.util.concurrent.TimeUnit;
 
 /**
  * 新建请求预期过程中封装的工具类
@@ -38,7 +39,7 @@ public class MockRequestUtils {
      * @param mockParams
      * @return
      */
-    public static void getRequest(MockEntity mockEntity, MockParams mockParams){
+    public static void setRequestFromParam(MockEntity mockEntity, MockParams mockParams){
         HttpRequest httpRequest = mockEntity.getHttpRequest();
 
         //path
@@ -76,10 +77,39 @@ public class MockRequestUtils {
             }
         }
 
-        //body
+        //body  TODO 不支持类型选择
         if(mockParams.getBody()!=null){
-
+            httpRequest.withBody(mockParams.getBody());
         }
+    }
+
+
+    /**
+     *  将前端参数转换为可用的mockEntity对象
+     * @param mockEntity
+     * @param mockParams
+     */
+    public static void setMockFromParam(MockEntity mockEntity, MockParams mockParams){
+        //setTimes
+        if(mockParams.getTimes()!=null){
+           mockEntity.setTimes(Times.exactly(mockParams.getTimes()));
+       }
+
+       //setTimeToLive
+       if(mockParams.getTime()!=null){
+           if(mockParams.getTimeUnit()!=null){
+               mockEntity.setTimeToLive(TimeToLive.exactly(mockParams.getTimeUnit(),mockParams.getTime()));
+
+           }
+           mockEntity.setTimeToLive(TimeToLive.exactly(TimeUnit.SECONDS,mockParams.getTime()));
+       }
+
+       //setPoriority
+       if(mockParams.getPoriority()!=null){
+           mockEntity.setPoriority(mockParams.getPoriority());
+       }
+
+        setRequestFromParam(mockEntity,mockParams);
     }
 
 
