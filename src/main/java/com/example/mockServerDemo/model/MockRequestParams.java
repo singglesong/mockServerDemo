@@ -1,15 +1,15 @@
 package com.example.mockServerDemo.model;
 
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
+import org.springframework.beans.factory.annotation.Value;
 
 import java.util.HashMap;
 
-/**
- * mockserver request配置对应的实体类
- */
-
 @Data
-public class MockRequestEntity {
+@ApiModel(value="创建mock接口的request参数model",description="创建excetion所需要的request所有参数" )
+public class MockRequestParams {
     /**
      * 匹配的路径，支持正则表达式，字符串路径形式。其中正则表达式支持反选
      */
@@ -18,6 +18,7 @@ public class MockRequestEntity {
     /**
      *  当path 是正则时，判断是否使用反选
      */
+    @ApiModelProperty(example="true")
     private boolean invertPath;
 
     /**
@@ -28,6 +29,7 @@ public class MockRequestEntity {
     /**
      * 正则匹配时，方法是否反选
      */
+    @ApiModelProperty(example="true")
     private boolean invertMethod;
 
     /**
@@ -53,5 +55,5 @@ public class MockRequestEntity {
     /**
      * body 多种类型的判断   TODO
      */
-    private String bodyType;
+//    private String bodyType;
 }
