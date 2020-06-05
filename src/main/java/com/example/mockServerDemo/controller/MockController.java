@@ -8,7 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
-@Controller("/mock")
+@Controller
 @Api(value = "创建mock数据")
 public class MockController {
 
@@ -36,11 +36,20 @@ public class MockController {
 //        return "result";
 //    }
 
-    @ApiOperation(value = "更新mock接口(暂不可用)",notes = "请求地址匹配方式进行mock数据创建")
-    @PostMapping("/updateExpectations")
-    public String updateExpectation(@RequestBody MockParams mockParams){
-        expectationsService.updateRequestMatchers(mockParams);
+//    @ApiOperation(value = "更新mock接口(暂不可用)",notes = "请求地址匹配方式进行mock数据创建")
+//    @PostMapping("/updateExpectations")
+//    public String updateExpectation(@RequestBody MockParams mockParams){
+//        expectationsService.updateRequestMatchers(mockParams);
+//        return "result";
+//    }
+
+
+    @ApiOperation(value = "代理模式记录路径请求作为exceptation",notes = "请求地址匹配方式进行mock数据创建")
+    @PostMapping("/recordedExpectations")
+    public String recordedExpectations (String[] paths){
+        for (String path:paths) {
+            expectationsService.recordedExpectations(path);
+        }
         return "result";
     }
-
 }

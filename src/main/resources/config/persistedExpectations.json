@@ -1,0 +1,166 @@
+[ {
+  "id" : "71ea8cd4-571a-472f-9d37-09abebd9be15",
+  "priority" : 0,
+  "httpRequest" : {
+    "path" : "/parking/vehicleSource"
+  },
+  "times" : {
+    "unlimited" : true
+  },
+  "timeToLive" : {
+    "unlimited" : true
+  },
+  "httpResponse" : {
+    "body" : "{\n\t\"code\":8200,\n\t\"data\":[\n\t\t{\n\t\t\t\"name\":\"å°å·\",\n\t\t\t\"value\":5056\n\t\t},\n\t\t{\n\t\t\t\"name\":\"æ­å·\",\n\t\t\t\"value\":4063\n\t\t},\n\t\t{\n\t\t\t\"name\":\"å®æ³¢\",\n\t\t\t\"value\":3041\n\t\t},\n\t\t{\n\t\t\t\"name\":\"æ¸©å·\",\n\t\t\t\"value\":2023\n\t\t},\n\t\t{\n\t\t\t\"name\":\"éå\",\n\t\t\t\"value\":1915\n\t\t},\n\t\t{\n\t\t\t\"name\":\"ä¸½æ°´\",\n\t\t\t\"value\":1625\n\t\t},\n\t\t{\n\t\t\t\"name\":\"åå´\",\n\t\t\t\"value\":1523\n\t\t},\n\t\t{\n\t\t\t\"name\":\"æ¹å·\",\n\t\t\t\"value\":1452\n\t\t},\n\t\t{\n\t\t\t\"name\":\"ç»å´\",\n\t\t\t\"value\":1352\n\t\t}\n\t],\n\t\"message\":\"è¯·æ±æå\",\n\t\"success\":true\n}"
+  }
+}, {
+  "id" : "0d56287d-8f99-4523-a2e7-b23e8130b515",
+  "priority" : 0,
+  "httpRequest" : {
+    "path" : "/parking/traffic"
+  },
+  "times" : {
+    "unlimited" : true
+  },
+  "timeToLive" : {
+    "unlimited" : true
+  },
+  "httpResponse" : {
+    "body" : "{\n\t\"code\":8200,\n\t\"data\":{\n\t\t\"xAxix\":[\n\t\t\t\"05-28\",\n\t\t\t\"05-29\",\n\t\t\t\"05-30\",\n\t\t\t\"05-31\",\n\t\t\t\"06-01\",\n\t\t\t\"06-02\",\n\t\t\t\"06-03\"\n\t\t],\n\t\t\"yAxix\":[\n\t\t\t719,\n\t\t\t728,\n\t\t\t651,\n\t\t\t880,\n\t\t\t826,\n\t\t\t772,\n\t\t\t773\n\t\t]\n\t},\n\t\"message\":\"è¯·æ±æå\",\n\t\"success\":true\n}"
+  }
+}, {
+  "id" : "d8d32455-e3fa-4ced-a434-d842ada96dd5",
+  "priority" : 0,
+  "httpRequest" : {
+    "path" : "/parking/stay"
+  },
+  "times" : {
+    "unlimited" : true
+  },
+  "timeToLive" : {
+    "unlimited" : true
+  },
+  "httpResponse" : {
+    "body" : "{\n\t\"code\":8200,\n\t\"data\":[\n\t\t{\n\t\t\t\"name\":\"ä¸å°æ¶ä»¥å\",\n\t\t\t\"value\":\"508\"\n\t\t},\n\t\t{\n\t\t\t\"name\":\"1-2å°æ¶\",\n\t\t\t\"value\":\"400\"\n\t\t},\n\t\t{\n\t\t\t\"name\":\"2-3å°æ¶\",\n\t\t\t\"value\":\"340\"\n\t\t},\n\t\t{\n\t\t\t\"name\":\"3-4å°æ¶\",\n\t\t\t\"value\":\"268\"\n\t\t},\n\t\t{\n\t\t\t\"name\":\"4-5å°æ¶\",\n\t\t\t\"value\":\"127\"\n\t\t},\n\t\t{\n\t\t\t\"name\":\"5-6å°æ¶\",\n\t\t\t\"value\":\"93\"\n\t\t},\n\t\t{\n\t\t\t\"name\":\"6å°æ¶ä»¥ä¸\",\n\t\t\t\"value\":\"901\"\n\t\t}\n\t],\n\t\"message\":\"è¯·æ±æå\",\n\t\"success\":true\n}"
+  }
+}, {
+  "id" : "433a68fe-d598-4275-978e-32ada8b325be",
+  "priority" : 0,
+  "httpRequest" : {
+    "path" : "/parking/outin"
+  },
+  "times" : {
+    "unlimited" : true
+  },
+  "timeToLive" : {
+    "unlimited" : true
+  },
+  "httpResponse" : {
+    "body" : "{\n\t\"code\":8200,\n\t\"data\":{\n\t\t\"inAxix\":[\n\t\t\t59,\n\t\t\t29,\n\t\t\t24,\n\t\t\t13,\n\t\t\t17,\n\t\t\t15,\n\t\t\t35,\n\t\t\t16,\n\t\t\t19,\n\t\t\t36,\n\t\t\t23,\n\t\t\t14,\n\t\t\t0\n\t\t],\n\t\t\"xAxix\":[\n\t\t\t\"8:00\",\n\t\t\t\"9:00\",\n\t\t\t\"10:00\",\n\t\t\t\"11:00\",\n\t\t\t\"12:00\",\n\t\t\t\"13:00\",\n\t\t\t\"14:00\",\n\t\t\t\"15:00\",\n\t\t\t\"16:00\",\n\t\t\t\"17:00\",\n\t\t\t\"18:00\",\n\t\t\t\"19:00\",\n\t\t\t\"20:00\"\n\t\t],\n\t\t\"outAxix\":[\n\t\t\t28,\n\t\t\t12,\n\t\t\t13,\n\t\t\t34,\n\t\t\t21,\n\t\t\t25,\n\t\t\t18,\n\t\t\t24,\n\t\t\t37,\n\t\t\t60,\n\t\t\t16,\n\t\t\t20,\n\t\t\t0\n\t\t]\n\t},\n\t\"message\":\"è¯·æ±æå\",\n\t\"success\":true\n}"
+  }
+}, {
+  "id" : "0a282497-00cf-4c53-9748-3c483803430a",
+  "priority" : 0,
+  "httpRequest" : {
+    "path" : "/ticket/statis/userTrend"
+  },
+  "times" : {
+    "unlimited" : true
+  },
+  "timeToLive" : {
+    "unlimited" : true
+  },
+  "httpResponse" : {
+    "body" : "{\n\t\"code\":8200,\n\t\"data\":{\n\t\t\"x\":[\n\t\t\t\"5-25\",\n\t\t\t\"5-26\",\n\t\t\t\"5-27\",\n\t\t\t\"5-28\",\n\t\t\t\"5-29\",\n\t\t\t\"5-30\",\n\t\t\t\"5-31\",\n\t\t\t\"6-1\",\n\t\t\t\"6-2\",\n\t\t\t\"6-3\"\n\t\t],\n\t\t\"y\":[\n\t\t\t41,\n\t\t\t121,\n\t\t\t289,\n\t\t\t193,\n\t\t\t145,\n\t\t\t161,\n\t\t\t385,\n\t\t\t138,\n\t\t\t206,\n\t\t\t103\n\t\t]\n\t},\n\t\"message\":\"è¯·æ±æå\",\n\t\"success\":true\n}"
+  }
+}, {
+  "id" : "b9ec8a97-4ce2-4ce8-8213-cbc28889d287",
+  "priority" : 0,
+  "httpRequest" : {
+    "path" : "/people/heat/days"
+  },
+  "times" : {
+    "unlimited" : true
+  },
+  "timeToLive" : {
+    "unlimited" : true
+  },
+  "httpResponse" : {
+    "body" : "{\n\t\"code\":8200,\n\t\"data\":[\n\t\t{\n\t\t\t\"count\":18,\n\t\t\t\"day\":\"05-25\"\n\t\t},\n\t\t{\n\t\t\t\"count\":63,\n\t\t\t\"day\":\"05-26\"\n\t\t},\n\t\t{\n\t\t\t\"count\":25,\n\t\t\t\"day\":\"05-27\"\n\t\t},\n\t\t{\n\t\t\t\"count\":23,\n\t\t\t\"day\":\"05-28\"\n\t\t},\n\t\t{\n\t\t\t\"count\":42,\n\t\t\t\"day\":\"05-29\"\n\t\t},\n\t\t{\n\t\t\t\"count\":43,\n\t\t\t\"day\":\"05-30\"\n\t\t},\n\t\t{\n\t\t\t\"count\":20,\n\t\t\t\"day\":\"05-31\"\n\t\t},\n\t\t{\n\t\t\t\"count\":42,\n\t\t\t\"day\":\"06-01\"\n\t\t},\n\t\t{\n\t\t\t\"count\":52,\n\t\t\t\"day\":\"06-02\"\n\t\t},\n\t\t{\n\t\t\t\"count\":42,\n\t\t\t\"day\":\"06-03\"\n\t\t}\n\t],\n\t\"message\":\"è¯·æ±æå\",\n\t\"success\":true\n}"
+  }
+}, {
+  "id" : "8a14248c-16eb-4f49-aef2-94ad90206b76",
+  "priority" : 0,
+  "httpRequest" : {
+    "path" : "/event/distort"
+  },
+  "times" : {
+    "unlimited" : true
+  },
+  "timeToLive" : {
+    "unlimited" : true
+  },
+  "httpResponse" : {
+    "body" : "{\n\t\"code\":8200,\n\t\"data\":[\n\t\t{\n\t\t\t\"day\":\"06-01\",\n\t\t\t\"sos_list\":[\n\t\t\t\t{\n\t\t\t\t\t\"count\":86,\n\t\t\t\t\t\"rate\":\"12.12\",\n\t\t\t\t\t\"type\":\"sos\",\n\t\t\t\t\t\"type_name\":\"sosè­¦æ¥\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"count\":8,\n\t\t\t\t\t\"rate\":\"9.87\",\n\t\t\t\t\t\"type\":\"flow_overload\",\n\t\t\t\t\t\"type_name\":\"äººæµè¶è½½\"\n\t\t\t\t}\n\t\t\t]\n\t\t},\n\t\t{\n\t\t\t\"day\":\"06-02\",\n\t\t\t\"sos_list\":[\n\t\t\t\t{\n\t\t\t\t\t\"count\":76,\n\t\t\t\t\t\"rate\":\"23.23\",\n\t\t\t\t\t\"type\":\"sos\",\n\t\t\t\t\t\"type_name\":\"sosè­¦æ¥\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"count\":5,\n\t\t\t\t\t\"rate\":\"8.76\",\n\t\t\t\t\t\"type\":\"flow_overload\",\n\t\t\t\t\t\"type_name\":\"äººæµè¶è½½\"\n\t\t\t\t}\n\t\t\t]\n\t\t},\n\t\t{\n\t\t\t\"day\":\"06-03\",\n\t\t\t\"sos_list\":[\n\t\t\t\t{\n\t\t\t\t\t\"count\":56,\n\t\t\t\t\t\"rate\":\"34.34\",\n\t\t\t\t\t\"type\":\"sos\",\n\t\t\t\t\t\"type_name\":\"sosè­¦æ¥\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"count\":45,\n\t\t\t\t\t\"rate\":\"7.65\",\n\t\t\t\t\t\"type\":\"flow_overload\",\n\t\t\t\t\t\"type_name\":\"äººæµè¶è½½\"\n\t\t\t\t}\n\t\t\t]\n\t\t},\n\t\t{\n\t\t\t\"day\":\"06-04\",\n\t\t\t\"sos_list\":[\n\t\t\t\t{\n\t\t\t\t\t\"count\":7,\n\t\t\t\t\t\"rate\":\"45.45\",\n\t\t\t\t\t\"type\":\"sos\",\n\t\t\t\t\t\"type_name\":\"sosè­¦æ¥\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"count\":5,\n\t\t\t\t\t\"rate\":\"6.54\",\n\t\t\t\t\t\"type\":\"flow_overload\",\n\t\t\t\t\t\"type_name\":\"äººæµè¶è½½\"\n\t\t\t\t}\n\t\t\t]\n\t\t},\n\t\t{\n\t\t\t\"day\":\"06-05\",\n\t\t\t\"sos_list\":[\n\t\t\t\t{\n\t\t\t\t\t\"count\":6,\n\t\t\t\t\t\"rate\":\"6.36\",\n\t\t\t\t\t\"type\":\"sos\",\n\t\t\t\t\t\"type_name\":\"sosè­¦æ¥\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"count\":4,\n\t\t\t\t\t\"rate\":\"5.34\",\n\t\t\t\t\t\"type\":\"flow_overload\",\n\t\t\t\t\t\"type_name\":\"äººæµè¶è½½\"\n\t\t\t\t}\n\t\t\t]\n\t\t},\n\t\t{\n\t\t\t\"day\":\"06-06\",\n\t\t\t\"sos_list\":[\n\t\t\t\t{\n\t\t\t\t\t\"count\":76,\n\t\t\t\t\t\"rate\":\"12.36\",\n\t\t\t\t\t\"type\":\"sos\",\n\t\t\t\t\t\"type_name\":\"sosè­¦æ¥\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"count\":23,\n\t\t\t\t\t\"rate\":\"3.45\",\n\t\t\t\t\t\"type\":\"flow_overload\",\n\t\t\t\t\t\"type_name\":\"äººæµè¶è½½\"\n\t\t\t\t}\n\t\t\t]\n\t\t},\n\t\t{\n\t\t\t\"day\":\"06-07\",\n\t\t\t\"sos_list\":[\n\t\t\t\t{\n\t\t\t\t\t\"count\":85,\n\t\t\t\t\t\"rate\":\"69.26\",\n\t\t\t\t\t\"type\":\"sos\",\n\t\t\t\t\t\"type_name\":\"sosè­¦æ¥\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"count\":0,\n\t\t\t\t\t\"rate\":\"2.34\",\n\t\t\t\t\t\"type\":\"flow_overload\",\n\t\t\t\t\t\"type_name\":\"äººæµè¶è½½\"\n\t\t\t\t}\n\t\t\t]\n\t\t},\n\t\t{\n\t\t\t\"day\":\"06-08\",\n\t\t\t\"sos_list\":[\n\t\t\t\t{\n\t\t\t\t\t\"count\":23,\n\t\t\t\t\t\"rate\":\"56.23\",\n\t\t\t\t\t\"type\":\"sos\",\n\t\t\t\t\t\"type_name\":\"sosè­¦æ¥\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"count\":32,\n\t\t\t\t\t\"rate\":\"1.23\",\n\t\t\t\t\t\"type\":\"flow_overload\",\n\t\t\t\t\t\"type_name\":\"äººæµè¶è½½\"\n\t\t\t\t}\n\t\t\t]\n\t\t},\n\t\t{\n\t\t\t\"day\":\"06-09\",\n\t\t\t\"sos_list\":[\n\t\t\t\t{\n\t\t\t\t\t\"count\":12,\n\t\t\t\t\t\"rate\":\"96.33\",\n\t\t\t\t\t\"type\":\"sos\",\n\t\t\t\t\t\"type_name\":\"sosè­¦æ¥\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"count\":23,\n\t\t\t\t\t\"rate\":\"3.30\",\n\t\t\t\t\t\"type\":\"flow_overload\",\n\t\t\t\t\t\"type_name\":\"äººæµè¶è½½\"\n\t\t\t\t}\n\t\t\t]\n\t\t},\n\t\t{\n\t\t\t\"day\":\"06-10\",\n\t\t\t\"sos_list\":[\n\t\t\t\t{\n\t\t\t\t\t\"count\":23,\n\t\t\t\t\t\"rate\":\"43.23\",\n\t\t\t\t\t\"type\":\"sos\",\n\t\t\t\t\t\"type_name\":\"sosè­¦æ¥\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"count\":23,\n\t\t\t\t\t\"rate\":\"42.00\",\n\t\t\t\t\t\"type\":\"flow_overload\",\n\t\t\t\t\t\"type_name\":\"äººæµè¶è½½\"\n\t\t\t\t}\n\t\t\t]\n\t\t},\n\t\t{\n\t\t\t\"day\":\"06-11\",\n\t\t\t\"sos_list\":[\n\t\t\t\t{\n\t\t\t\t\t\"count\":0,\n\t\t\t\t\t\"rate\":\"23.23\",\n\t\t\t\t\t\"type\":\"sos\",\n\t\t\t\t\t\"type_name\":\"sosè­¦æ¥\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"count\":52,\n\t\t\t\t\t\"rate\":\"3.23\",\n\t\t\t\t\t\"type\":\"flow_overload\",\n\t\t\t\t\t\"type_name\":\"äººæµè¶è½½\"\n\t\t\t\t}\n\t\t\t]\n\t\t},\n\t\t{\n\t\t\t\"day\":\"06-12\",\n\t\t\t\"sos_list\":[\n\t\t\t\t{\n\t\t\t\t\t\"count\":78,\n\t\t\t\t\t\"rate\":\"23.69\",\n\t\t\t\t\t\"type\":\"sos\",\n\t\t\t\t\t\"type_name\":\"sosè­¦æ¥\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"count\":45,\n\t\t\t\t\t\"rate\":\"32.02\",\n\t\t\t\t\t\"type\":\"flow_overload\",\n\t\t\t\t\t\"type_name\":\"äººæµè¶è½½\"\n\t\t\t\t}\n\t\t\t]\n\t\t},\n\t\t{\n\t\t\t\"day\":\"06-13\",\n\t\t\t\"sos_list\":[\n\t\t\t\t{\n\t\t\t\t\t\"count\":54,\n\t\t\t\t\t\"rate\":\"96.56\",\n\t\t\t\t\t\"type\":\"sos\",\n\t\t\t\t\t\"type_name\":\"sosè­¦æ¥\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"count\":75,\n\t\t\t\t\t\"rate\":\"22.12\",\n\t\t\t\t\t\"type\":\"flow_overload\",\n\t\t\t\t\t\"type_name\":\"äººæµè¶è½½\"\n\t\t\t\t}\n\t\t\t]\n\t\t},\n\t\t{\n\t\t\t\"day\":\"06-14\",\n\t\t\t\"sos_list\":[\n\t\t\t\t{\n\t\t\t\t\t\"count\":74,\n\t\t\t\t\t\"rate\":\"0.00\",\n\t\t\t\t\t\"type\":\"sos\",\n\t\t\t\t\t\"type_name\":\"sosè­¦æ¥\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"count\":34,\n\t\t\t\t\t\"rate\":\"87.14\",\n\t\t\t\t\t\"type\":\"flow_overload\",\n\t\t\t\t\t\"type_name\":\"äººæµè¶è½½\"\n\t\t\t\t}\n\t\t\t]\n\t\t},\n\t\t{\n\t\t\t\"day\":\"06-15\",\n\t\t\t\"sos_list\":[\n\t\t\t\t{\n\t\t\t\t\t\"count\":67,\n\t\t\t\t\t\"rate\":\"23.00\",\n\t\t\t\t\t\"type\":\"sos\",\n\t\t\t\t\t\"type_name\":\"sosè­¦æ¥\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"count\":21,\n\t\t\t\t\t\"rate\":\"45.12\",\n\t\t\t\t\t\"type\":\"flow_overload\",\n\t\t\t\t\t\"type_name\":\"äººæµè¶è½½\"\n\t\t\t\t}\n\t\t\t]\n\t\t},\n\t\t{\n\t\t\t\"day\":\"06-16\",\n\t\t\t\"sos_list\":[\n\t\t\t\t{\n\t\t\t\t\t\"count\":45,\n\t\t\t\t\t\"rate\":\"23.04\",\n\t\t\t\t\t\"type\":\"sos\",\n\t\t\t\t\t\"type_name\":\"sosè­¦æ¥\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"count\":21,\n\t\t\t\t\t\"rate\":\"85.25\",\n\t\t\t\t\t\"type\":\"flow_overload\",\n\t\t\t\t\t\"type_name\":\"äººæµè¶è½½\"\n\t\t\t\t}\n\t\t\t]\n\t\t},\n\t\t{\n\t\t\t\"day\":\"06-17\",\n\t\t\t\"sos_list\":[\n\t\t\t\t{\n\t\t\t\t\t\"count\":14,\n\t\t\t\t\t\"rate\":\"12.03\",\n\t\t\t\t\t\"type\":\"sos\",\n\t\t\t\t\t\"type_name\":\"sosè­¦æ¥\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"count\":13,\n\t\t\t\t\t\"rate\":\"56.24\",\n\t\t\t\t\t\"type\":\"flow_overload\",\n\t\t\t\t\t\"type_name\":\"äººæµè¶è½½\"\n\t\t\t\t}\n\t\t\t]\n\t\t},\n\t\t{\n\t\t\t\"day\":\"06-18\",\n\t\t\t\"sos_list\":[\n\t\t\t\t{\n\t\t\t\t\t\"count\":87,\n\t\t\t\t\t\"rate\":\"23.03\",\n\t\t\t\t\t\"type\":\"sos\",\n\t\t\t\t\t\"type_name\":\"sosè­¦æ¥\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"count\":32,\n\t\t\t\t\t\"rate\":\"56.32\",\n\t\t\t\t\t\"type\":\"flow_overload\",\n\t\t\t\t\t\"type_name\":\"äººæµè¶è½½\"\n\t\t\t\t}\n\t\t\t]\n\t\t},\n\t\t{\n\t\t\t\"day\":\"06-19\",\n\t\t\t\"sos_list\":[\n\t\t\t\t{\n\t\t\t\t\t\"count\":97,\n\t\t\t\t\t\"rate\":\"3.02\",\n\t\t\t\t\t\"type\":\"sos\",\n\t\t\t\t\t\"type_name\":\"sosè­¦æ¥\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"count\":56,\n\t\t\t\t\t\"rate\":\"12.23\",\n\t\t\t\t\t\"type\":\"flow_overload\",\n\t\t\t\t\t\"type_name\":\"äººæµè¶è½½\"\n\t\t\t\t}\n\t\t\t]\n\t\t},\n\t\t{\n\t\t\t\"day\":\"06-20\",\n\t\t\t\"sos_list\":[\n\t\t\t\t{\n\t\t\t\t\t\"count\":78,\n\t\t\t\t\t\"rate\":\"3.30\",\n\t\t\t\t\t\"type\":\"sos\",\n\t\t\t\t\t\"type_name\":\"sosè­¦æ¥\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"count\":76,\n\t\t\t\t\t\"rate\":\"85.26\",\n\t\t\t\t\t\"type\":\"flow_overload\",\n\t\t\t\t\t\"type_name\":\"äººæµè¶è½½\"\n\t\t\t\t}\n\t\t\t]\n\t\t},\n\t\t{\n\t\t\t\"day\":\"06-21\",\n\t\t\t\"sos_list\":[\n\t\t\t\t{\n\t\t\t\t\t\"count\":23,\n\t\t\t\t\t\"rate\":\"23.03\",\n\t\t\t\t\t\"type\":\"sos\",\n\t\t\t\t\t\"type_name\":\"sosè­¦æ¥\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"count\":40,\n\t\t\t\t\t\"rate\":\"26.35\",\n\t\t\t\t\t\"type\":\"flow_overload\",\n\t\t\t\t\t\"type_name\":\"äººæµè¶è½½\"\n\t\t\t\t}\n\t\t\t]\n\t\t},\n\t\t{\n\t\t\t\"day\":\"06-22\",\n\t\t\t\"sos_list\":[\n\t\t\t\t{\n\t\t\t\t\t\"count\":74,\n\t\t\t\t\t\"rate\":\"55.00\",\n\t\t\t\t\t\"type\":\"sos\",\n\t\t\t\t\t\"type_name\":\"sosè­¦æ¥\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"count\":44,\n\t\t\t\t\t\"rate\":\"55.23\",\n\t\t\t\t\t\"type\":\"flow_overload\",\n\t\t\t\t\t\"type_name\":\"äººæµè¶è½½\"\n\t\t\t\t}\n\t\t\t]\n\t\t},\n\t\t{\n\t\t\t\"day\":\"06-23\",\n\t\t\t\"sos_list\":[\n\t\t\t\t{\n\t\t\t\t\t\"count\":14,\n\t\t\t\t\t\"rate\":\"34.00\",\n\t\t\t\t\t\"type\":\"sos\",\n\t\t\t\t\t\"type_name\":\"sosè­¦æ¥\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"count\":0,\n\t\t\t\t\t\"rate\":\"33.26\",\n\t\t\t\t\t\"type\":\"flow_overload\",\n\t\t\t\t\t\"type_name\":\"äººæµè¶è½½\"\n\t\t\t\t}\n\t\t\t]\n\t\t},\n\t\t{\n\t\t\t\"day\":\"06-24\",\n\t\t\t\"sos_list\":[\n\t\t\t\t{\n\t\t\t\t\t\"count\":87,\n\t\t\t\t\t\"rate\":\"64.00\",\n\t\t\t\t\t\"type\":\"sos\",\n\t\t\t\t\t\"type_name\":\"sosè­¦æ¥\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"count\":20,\n\t\t\t\t\t\"rate\":\"55.33\",\n\t\t\t\t\t\"type\":\"flow_overload\",\n\t\t\t\t\t\"type_name\":\"äººæµè¶è½½\"\n\t\t\t\t}\n\t\t\t]\n\t\t},\n\t\t{\n\t\t\t\"day\":\"06-25\",\n\t\t\t\"sos_list\":[\n\t\t\t\t{\n\t\t\t\t\t\"count\":45,\n\t\t\t\t\t\"rate\":\"43.00\",\n\t\t\t\t\t\"type\":\"sos\",\n\t\t\t\t\t\"type_name\":\"sosè­¦æ¥\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"count\":23,\n\t\t\t\t\t\"rate\":\"99.66\",\n\t\t\t\t\t\"type\":\"flow_overload\",\n\t\t\t\t\t\"type_name\":\"äººæµè¶è½½\"\n\t\t\t\t}\n\t\t\t]\n\t\t},\n\t\t{\n\t\t\t\"day\":\"06-26\",\n\t\t\t\"sos_list\":[\n\t\t\t\t{\n\t\t\t\t\t\"count\":12,\n\t\t\t\t\t\"rate\":\"93.00\",\n\t\t\t\t\t\"type\":\"sos\",\n\t\t\t\t\t\"type_name\":\"sosè­¦æ¥\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"count\":4,\n\t\t\t\t\t\"rate\":\"11.11\",\n\t\t\t\t\t\"type\":\"flow_overload\",\n\t\t\t\t\t\"type_name\":\"äººæµè¶è½½\"\n\t\t\t\t}\n\t\t\t]\n\t\t},\n\t\t{\n\t\t\t\"day\":\"06-27\",\n\t\t\t\"sos_list\":[\n\t\t\t\t{\n\t\t\t\t\t\"count\":0,\n\t\t\t\t\t\"rate\":\"43.68\",\n\t\t\t\t\t\"type\":\"sos\",\n\t\t\t\t\t\"type_name\":\"sosè­¦æ¥\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"count\":23,\n\t\t\t\t\t\"rate\":\"0.00\",\n\t\t\t\t\t\"type\":\"flow_overload\",\n\t\t\t\t\t\"type_name\":\"äººæµè¶è½½\"\n\t\t\t\t}\n\t\t\t]\n\t\t},\n\t\t{\n\t\t\t\"day\":\"06-28\",\n\t\t\t\"sos_list\":[\n\t\t\t\t{\n\t\t\t\t\t\"count\":22,\n\t\t\t\t\t\"rate\":\"67.70\",\n\t\t\t\t\t\"type\":\"sos\",\n\t\t\t\t\t\"type_name\":\"sosè­¦æ¥\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"count\":3,\n\t\t\t\t\t\"rate\":\"0.00\",\n\t\t\t\t\t\"type\":\"flow_overload\",\n\t\t\t\t\t\"type_name\":\"äººæµè¶è½½\"\n\t\t\t\t}\n\t\t\t]\n\t\t},\n\t\t{\n\t\t\t\"day\":\"06-29\",\n\t\t\t\"sos_list\":[\n\t\t\t\t{\n\t\t\t\t\t\"count\":23,\n\t\t\t\t\t\"rate\":\"45.60\",\n\t\t\t\t\t\"type\":\"sos\",\n\t\t\t\t\t\"type_name\":\"sosè­¦æ¥\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"count\":10,\n\t\t\t\t\t\"rate\":\"12.56\",\n\t\t\t\t\t\"type\":\"flow_overload\",\n\t\t\t\t\t\"type_name\":\"äººæµè¶è½½\"\n\t\t\t\t}\n\t\t\t]\n\t\t},\n\t\t{\n\t\t\t\"day\":\"06-30\",\n\t\t\t\"sos_list\":[\n\t\t\t\t{\n\t\t\t\t\t\"count\":42,\n\t\t\t\t\t\"rate\":\"6.23\",\n\t\t\t\t\t\"type\":\"sos\",\n\t\t\t\t\t\"type_name\":\"sosè­¦æ¥\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"count\":23,\n\t\t\t\t\t\"rate\":\"89.00\",\n\t\t\t\t\t\"type\":\"flow_overload\",\n\t\t\t\t\t\"type_name\":\"äººæµè¶è½½\"\n\t\t\t\t}\n\t\t\t]\n\t\t}\n\t],\n\t\"message\":\"è¯·æ±æå\",\n\t\"success\":true\n}"
+  }
+}, {
+  "id" : "66c8936d-6d91-4327-b283-77c859e06e0d",
+  "priority" : 0,
+  "httpRequest" : {
+    "path" : "/event/census"
+  },
+  "times" : {
+    "unlimited" : true
+  },
+  "timeToLive" : {
+    "unlimited" : true
+  },
+  "httpResponse" : {
+    "body" : "{\n\t\"code\":8200,\n\t\"data\":[\n\t\t{\n\t\t\t\"day\":\"06-01\",\n\t\t\t\"sos_list\":[\n\t\t\t\t{\n\t\t\t\t\t\"count\":23,\n\t\t\t\t\t\"type\":\"sos\",\n\t\t\t\t\t\"type_name\":\"sosè­¦æ¥\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"count\":11,\n\t\t\t\t\t\"type\":\"flow_overload\",\n\t\t\t\t\t\"type_name\":\"äººæµè¶è½½\"\n\t\t\t\t}\n\t\t\t]\n\t\t},\n\t\t{\n\t\t\t\"day\":\"06-02\",\n\t\t\t\"sos_list\":[\n\t\t\t\t{\n\t\t\t\t\t\"count\":30,\n\t\t\t\t\t\"type\":\"sos\",\n\t\t\t\t\t\"type_name\":\"sosè­¦æ¥\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"count\":10,\n\t\t\t\t\t\"type\":\"flow_overload\",\n\t\t\t\t\t\"type_name\":\"äººæµè¶è½½\"\n\t\t\t\t}\n\t\t\t]\n\t\t},\n\t\t{\n\t\t\t\"day\":\"06-03\",\n\t\t\t\"sos_list\":[\n\t\t\t\t{\n\t\t\t\t\t\"count\":32,\n\t\t\t\t\t\"type\":\"sos\",\n\t\t\t\t\t\"type_name\":\"sosè­¦æ¥\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"count\":10,\n\t\t\t\t\t\"type\":\"flow_overload\",\n\t\t\t\t\t\"type_name\":\"äººæµè¶è½½\"\n\t\t\t\t}\n\t\t\t]\n\t\t},\n\t\t{\n\t\t\t\"day\":\"06-04\",\n\t\t\t\"sos_list\":[\n\t\t\t\t{\n\t\t\t\t\t\"count\":10,\n\t\t\t\t\t\"type\":\"sos\",\n\t\t\t\t\t\"type_name\":\"sosè­¦æ¥\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"count\":22,\n\t\t\t\t\t\"type\":\"flow_overload\",\n\t\t\t\t\t\"type_name\":\"äººæµè¶è½½\"\n\t\t\t\t}\n\t\t\t]\n\t\t},\n\t\t{\n\t\t\t\"day\":\"06-05\",\n\t\t\t\"sos_list\":[\n\t\t\t\t{\n\t\t\t\t\t\"count\":43,\n\t\t\t\t\t\"type\":\"sos\",\n\t\t\t\t\t\"type_name\":\"sosè­¦æ¥\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"count\":2,\n\t\t\t\t\t\"type\":\"flow_overload\",\n\t\t\t\t\t\"type_name\":\"äººæµè¶è½½\"\n\t\t\t\t}\n\t\t\t]\n\t\t},\n\t\t{\n\t\t\t\"day\":\"06-06\",\n\t\t\t\"sos_list\":[\n\t\t\t\t{\n\t\t\t\t\t\"count\":6,\n\t\t\t\t\t\"type\":\"sos\",\n\t\t\t\t\t\"type_name\":\"sosè­¦æ¥\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"count\":4,\n\t\t\t\t\t\"type\":\"flow_overload\",\n\t\t\t\t\t\"type_name\":\"äººæµè¶è½½\"\n\t\t\t\t}\n\t\t\t]\n\t\t},\n\t\t{\n\t\t\t\"day\":\"06-07\",\n\t\t\t\"sos_list\":[\n\t\t\t\t{\n\t\t\t\t\t\"count\":8,\n\t\t\t\t\t\"type\":\"sos\",\n\t\t\t\t\t\"type_name\":\"sosè­¦æ¥\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"count\":0,\n\t\t\t\t\t\"type\":\"flow_overload\",\n\t\t\t\t\t\"type_name\":\"äººæµè¶è½½\"\n\t\t\t\t}\n\t\t\t]\n\t\t},\n\t\t{\n\t\t\t\"day\":\"06-08\",\n\t\t\t\"sos_list\":[\n\t\t\t\t{\n\t\t\t\t\t\"count\":9,\n\t\t\t\t\t\"type\":\"sos\",\n\t\t\t\t\t\"type_name\":\"sosè­¦æ¥\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"count\":22,\n\t\t\t\t\t\"type\":\"flow_overload\",\n\t\t\t\t\t\"type_name\":\"äººæµè¶è½½\"\n\t\t\t\t}\n\t\t\t]\n\t\t},\n\t\t{\n\t\t\t\"day\":\"06-09\",\n\t\t\t\"sos_list\":[\n\t\t\t\t{\n\t\t\t\t\t\"count\":23,\n\t\t\t\t\t\"type\":\"sos\",\n\t\t\t\t\t\"type_name\":\"sosè­¦æ¥\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"count\":12,\n\t\t\t\t\t\"type\":\"flow_overload\",\n\t\t\t\t\t\"type_name\":\"äººæµè¶è½½\"\n\t\t\t\t}\n\t\t\t]\n\t\t},\n\t\t{\n\t\t\t\"day\":\"06-10\",\n\t\t\t\"sos_list\":[\n\t\t\t\t{\n\t\t\t\t\t\"count\":13,\n\t\t\t\t\t\"type\":\"sos\",\n\t\t\t\t\t\"type_name\":\"sosè­¦æ¥\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"count\":6,\n\t\t\t\t\t\"type\":\"flow_overload\",\n\t\t\t\t\t\"type_name\":\"äººæµè¶è½½\"\n\t\t\t\t}\n\t\t\t]\n\t\t},\n\t\t{\n\t\t\t\"day\":\"06-11\",\n\t\t\t\"sos_list\":[\n\t\t\t\t{\n\t\t\t\t\t\"count\":3,\n\t\t\t\t\t\"type\":\"sos\",\n\t\t\t\t\t\"type_name\":\"sosè­¦æ¥\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"count\":21,\n\t\t\t\t\t\"type\":\"flow_overload\",\n\t\t\t\t\t\"type_name\":\"äººæµè¶è½½\"\n\t\t\t\t}\n\t\t\t]\n\t\t},\n\t\t{\n\t\t\t\"day\":\"06-12\",\n\t\t\t\"sos_list\":[\n\t\t\t\t{\n\t\t\t\t\t\"count\":0,\n\t\t\t\t\t\"type\":\"sos\",\n\t\t\t\t\t\"type_name\":\"sosè­¦æ¥\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"count\":2,\n\t\t\t\t\t\"type\":\"flow_overload\",\n\t\t\t\t\t\"type_name\":\"äººæµè¶è½½\"\n\t\t\t\t}\n\t\t\t]\n\t\t},\n\t\t{\n\t\t\t\"day\":\"06-13\",\n\t\t\t\"sos_list\":[\n\t\t\t\t{\n\t\t\t\t\t\"count\":32,\n\t\t\t\t\t\"type\":\"sos\",\n\t\t\t\t\t\"type_name\":\"sosè­¦æ¥\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"count\":2,\n\t\t\t\t\t\"type\":\"flow_overload\",\n\t\t\t\t\t\"type_name\":\"äººæµè¶è½½\"\n\t\t\t\t}\n\t\t\t]\n\t\t},\n\t\t{\n\t\t\t\"day\":\"06-14\",\n\t\t\t\"sos_list\":[\n\t\t\t\t{\n\t\t\t\t\t\"count\":0,\n\t\t\t\t\t\"type\":\"sos\",\n\t\t\t\t\t\"type_name\":\"sosè­¦æ¥\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"count\":5,\n\t\t\t\t\t\"type\":\"flow_overload\",\n\t\t\t\t\t\"type_name\":\"äººæµè¶è½½\"\n\t\t\t\t}\n\t\t\t]\n\t\t},\n\t\t{\n\t\t\t\"day\":\"06-15\",\n\t\t\t\"sos_list\":[\n\t\t\t\t{\n\t\t\t\t\t\"count\":43,\n\t\t\t\t\t\"type\":\"sos\",\n\t\t\t\t\t\"type_name\":\"sosè­¦æ¥\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"count\":12,\n\t\t\t\t\t\"type\":\"flow_overload\",\n\t\t\t\t\t\"type_name\":\"äººæµè¶è½½\"\n\t\t\t\t}\n\t\t\t]\n\t\t},\n\t\t{\n\t\t\t\"day\":\"06-16\",\n\t\t\t\"sos_list\":[\n\t\t\t\t{\n\t\t\t\t\t\"count\":43,\n\t\t\t\t\t\"type\":\"sos\",\n\t\t\t\t\t\"type_name\":\"sosè­¦æ¥\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"count\":12,\n\t\t\t\t\t\"type\":\"flow_overload\",\n\t\t\t\t\t\"type_name\":\"äººæµè¶è½½\"\n\t\t\t\t}\n\t\t\t]\n\t\t},\n\t\t{\n\t\t\t\"day\":\"06-17\",\n\t\t\t\"sos_list\":[\n\t\t\t\t{\n\t\t\t\t\t\"count\":2,\n\t\t\t\t\t\"type\":\"sos\",\n\t\t\t\t\t\"type_name\":\"sosè­¦æ¥\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"count\":43,\n\t\t\t\t\t\"type\":\"flow_overload\",\n\t\t\t\t\t\"type_name\":\"äººæµè¶è½½\"\n\t\t\t\t}\n\t\t\t]\n\t\t},\n\t\t{\n\t\t\t\"day\":\"06-18\",\n\t\t\t\"sos_list\":[\n\t\t\t\t{\n\t\t\t\t\t\"count\":22,\n\t\t\t\t\t\"type\":\"sos\",\n\t\t\t\t\t\"type_name\":\"sosè­¦æ¥\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"count\":12,\n\t\t\t\t\t\"type\":\"flow_overload\",\n\t\t\t\t\t\"type_name\":\"äººæµè¶è½½\"\n\t\t\t\t}\n\t\t\t]\n\t\t},\n\t\t{\n\t\t\t\"day\":\"06-19\",\n\t\t\t\"sos_list\":[\n\t\t\t\t{\n\t\t\t\t\t\"count\":0,\n\t\t\t\t\t\"type\":\"sos\",\n\t\t\t\t\t\"type_name\":\"sosè­¦æ¥\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"count\":45,\n\t\t\t\t\t\"type\":\"flow_overload\",\n\t\t\t\t\t\"type_name\":\"äººæµè¶è½½\"\n\t\t\t\t}\n\t\t\t]\n\t\t},\n\t\t{\n\t\t\t\"day\":\"06-20\",\n\t\t\t\"sos_list\":[\n\t\t\t\t{\n\t\t\t\t\t\"count\":0,\n\t\t\t\t\t\"type\":\"sos\",\n\t\t\t\t\t\"type_name\":\"sosè­¦æ¥\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"count\":0,\n\t\t\t\t\t\"type\":\"flow_overload\",\n\t\t\t\t\t\"type_name\":\"äººæµè¶è½½\"\n\t\t\t\t}\n\t\t\t]\n\t\t},\n\t\t{\n\t\t\t\"day\":\"06-21\",\n\t\t\t\"sos_list\":[\n\t\t\t\t{\n\t\t\t\t\t\"count\":0,\n\t\t\t\t\t\"type\":\"sos\",\n\t\t\t\t\t\"type_name\":\"sosè­¦æ¥\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"count\":0,\n\t\t\t\t\t\"type\":\"flow_overload\",\n\t\t\t\t\t\"type_name\":\"äººæµè¶è½½\"\n\t\t\t\t}\n\t\t\t]\n\t\t},\n\t\t{\n\t\t\t\"day\":\"06-22\",\n\t\t\t\"sos_list\":[\n\t\t\t\t{\n\t\t\t\t\t\"count\":4,\n\t\t\t\t\t\"type\":\"sos\",\n\t\t\t\t\t\"type_name\":\"sosè­¦æ¥\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"count\":2,\n\t\t\t\t\t\"type\":\"flow_overload\",\n\t\t\t\t\t\"type_name\":\"äººæµè¶è½½\"\n\t\t\t\t}\n\t\t\t]\n\t\t},\n\t\t{\n\t\t\t\"day\":\"06-23\",\n\t\t\t\"sos_list\":[\n\t\t\t\t{\n\t\t\t\t\t\"count\":0,\n\t\t\t\t\t\"type\":\"sos\",\n\t\t\t\t\t\"type_name\":\"sosè­¦æ¥\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"count\":43,\n\t\t\t\t\t\"type\":\"flow_overload\",\n\t\t\t\t\t\"type_name\":\"äººæµè¶è½½\"\n\t\t\t\t}\n\t\t\t]\n\t\t},\n\t\t{\n\t\t\t\"day\":\"06-24\",\n\t\t\t\"sos_list\":[\n\t\t\t\t{\n\t\t\t\t\t\"count\":0,\n\t\t\t\t\t\"type\":\"sos\",\n\t\t\t\t\t\"type_name\":\"sosè­¦æ¥\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"count\":1,\n\t\t\t\t\t\"type\":\"flow_overload\",\n\t\t\t\t\t\"type_name\":\"äººæµè¶è½½\"\n\t\t\t\t}\n\t\t\t]\n\t\t},\n\t\t{\n\t\t\t\"day\":\"06-25\",\n\t\t\t\"sos_list\":[\n\t\t\t\t{\n\t\t\t\t\t\"count\":0,\n\t\t\t\t\t\"type\":\"sos\",\n\t\t\t\t\t\"type_name\":\"sosè­¦æ¥\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"count\":0,\n\t\t\t\t\t\"type\":\"flow_overload\",\n\t\t\t\t\t\"type_name\":\"äººæµè¶è½½\"\n\t\t\t\t}\n\t\t\t]\n\t\t},\n\t\t{\n\t\t\t\"day\":\"06-26\",\n\t\t\t\"sos_list\":[\n\t\t\t\t{\n\t\t\t\t\t\"count\":4,\n\t\t\t\t\t\"type\":\"sos\",\n\t\t\t\t\t\"type_name\":\"sosè­¦æ¥\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"count\":0,\n\t\t\t\t\t\"type\":\"flow_overload\",\n\t\t\t\t\t\"type_name\":\"äººæµè¶è½½\"\n\t\t\t\t}\n\t\t\t]\n\t\t},\n\t\t{\n\t\t\t\"day\":\"06-27\",\n\t\t\t\"sos_list\":[\n\t\t\t\t{\n\t\t\t\t\t\"count\":0,\n\t\t\t\t\t\"type\":\"sos\",\n\t\t\t\t\t\"type_name\":\"sosè­¦æ¥\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"count\":4,\n\t\t\t\t\t\"type\":\"flow_overload\",\n\t\t\t\t\t\"type_name\":\"äººæµè¶è½½\"\n\t\t\t\t}\n\t\t\t]\n\t\t},\n\t\t{\n\t\t\t\"day\":\"06-28\",\n\t\t\t\"sos_list\":[\n\t\t\t\t{\n\t\t\t\t\t\"count\":5,\n\t\t\t\t\t\"type\":\"sos\",\n\t\t\t\t\t\"type_name\":\"sosè­¦æ¥\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"count\":0,\n\t\t\t\t\t\"type\":\"flow_overload\",\n\t\t\t\t\t\"type_name\":\"äººæµè¶è½½\"\n\t\t\t\t}\n\t\t\t]\n\t\t},\n\t\t{\n\t\t\t\"day\":\"06-29\",\n\t\t\t\"sos_list\":[\n\t\t\t\t{\n\t\t\t\t\t\"count\":11,\n\t\t\t\t\t\"type\":\"sos\",\n\t\t\t\t\t\"type_name\":\"sosè­¦æ¥\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"count\":2,\n\t\t\t\t\t\"type\":\"flow_overload\",\n\t\t\t\t\t\"type_name\":\"äººæµè¶è½½\"\n\t\t\t\t}\n\t\t\t]\n\t\t},\n\t\t{\n\t\t\t\"day\":\"06-30\",\n\t\t\t\"sos_list\":[\n\t\t\t\t{\n\t\t\t\t\t\"count\":4,\n\t\t\t\t\t\"type\":\"sos\",\n\t\t\t\t\t\"type_name\":\"sosè­¦æ¥\"\n\t\t\t\t},\n\t\t\t\t{\n\t\t\t\t\t\"count\":23,\n\t\t\t\t\t\"type\":\"flow_overload\",\n\t\t\t\t\t\"type_name\":\"äººæµè¶è½½\"\n\t\t\t\t}\n\t\t\t]\n\t\t}\n\t],\n\t\"message\":\"è¯·æ±æå\",\n\t\"success\":true\n}"
+  }
+}, {
+  "id" : "4e4ab33b-4db8-4aff-a23c-3d68a7f3e59f",
+  "priority" : 0,
+  "httpRequest" : {
+    "path" : "/api/ticket"
+  },
+  "times" : {
+    "unlimited" : true
+  },
+  "timeToLive" : {
+    "unlimited" : true
+  },
+  "httpResponse" : {
+    "body" : "{\"code\":8200,\"data\":[{\"name\":\"\\u53f0\\u5dde\\u5e9c\\u57ce\\u5899\",\"value\":860},{\"name\":\"\\u4e1c\\u6e56\",\"value\":355},{\"name\":\"\\u53f0\\u5dde\\u5e9c\\u57ce\\u5899+\\u4e1c\\u6e56\",\"value\":139},{\"name\":\"\\u5bfc\\u6e38\\u670d\\u52a1\\u8d39\",\"value\":1}],\"message\":\"\\u8bf7\\u6c42\\u6210\\u529f\",\"success\":true}\n"
+  }
+}, {
+  "id" : "6846d9c0-8393-487c-8fbc-e19254d2c096",
+  "priority" : 0,
+  "httpRequest" : {
+    "path" : "/ticket/statis/moneyTrend"
+  },
+  "times" : {
+    "unlimited" : true
+  },
+  "timeToLive" : {
+    "unlimited" : true
+  },
+  "httpResponse" : {
+    "body" : "{\n\t\"code\":8200,\n\t\"data\":{\n\t\t\"x\":[\n\t\t\t\"5-25\",\n\t\t\t\"5-26\",\n\t\t\t\"5-27\",\n\t\t\t\"5-28\",\n\t\t\t\"5-29\",\n\t\t\t\"5-30\",\n\t\t\t\"5-31\",\n\t\t\t\"6-1\",\n\t\t\t\"6-2\",\n\t\t\t\"6-3\"\n\t\t],\n\t\t\"y\":[\n\t\t\t1667.0,\n\t\t\t5061.0,\n\t\t\t10987.0,\n\t\t\t8041.0,\n\t\t\t5981.0,\n\t\t\t6973.0,\n\t\t\t16217.0,\n\t\t\t6159.0,\n\t\t\t10059.0,\n\t\t\t3590.0\n\t\t]\n\t},\n\t\"message\":\"è¯·æ±æå\",\n\t\"success\":true\n}"
+  }
+}, {
+  "id" : "b47e1348-d960-4753-b643-f8b90c96fdbe",
+  "priority" : 0,
+  "httpRequest" : {
+    "path" : "/ticket/statis/channel"
+  },
+  "times" : {
+    "unlimited" : true
+  },
+  "timeToLive" : {
+    "unlimited" : true
+  },
+  "httpResponse" : {
+    "body" : "{\n\t\"code\":8200,\n\t\"data\":[\n\t\t{\n\t\t\t\"count\":873,\n\t\t\t\"type\":\"æäººç¥¨\"\n\t\t},\n\t\t{\n\t\t\t\"count\":137,\n\t\t\t\"type\":\"èå¹´ç¥¨\"\n\t\t},\n\t\t{\n\t\t\t\"count\":68,\n\t\t\t\"type\":\"èç¥¨-æäººç¥¨\"\n\t\t},\n\t\t{\n\t\t\t\"count\":61,\n\t\t\t\"type\":\"å°å·åºåå¢æäººç¥¨-å©éå®¢\"\n\t\t},\n\t\t{\n\t\t\t\"count\":35,\n\t\t\t\"type\":\"å°å·åºåå¢-ç½ç»ç¥¨\"\n\t\t},\n\t\t{\n\t\t\t\"count\":33,\n\t\t\t\"type\":\"èç¥¨-èå¹´ç¥¨\"\n\t\t},\n\t\t{\n\t\t\t\"count\":31,\n\t\t\t\"type\":\"å¿ç«¥ç¥¨\"\n\t\t},\n\t\t{\n\t\t\t\"count\":27,\n\t\t\t\"type\":\"ä¸æ¹æäººç¥¨-å©éå®¢\"\n\t\t},\n\t\t{\n\t\t\t\"count\":22,\n\t\t\t\"type\":\"å­¦çç¥¨\"\n\t\t},\n\t\t{\n\t\t\t\"count\":17,\n\t\t\t\"type\":\"(å°å·åºåå¢+ä¸æ¹)æäººç¥¨-å©éå®¢\"\n\t\t},\n\t\t{\n\t\t\t\"count\":11,\n\t\t\t\"type\":\"èç¥¨-å­¦çç¥¨\"\n\t\t},\n\t\t{\n\t\t\t\"count\":11,\n\t\t\t\"type\":\"å°å·åºåå¢æäººç¥¨\"\n\t\t},\n\t\t{\n\t\t\t\"count\":7,\n\t\t\t\"type\":\"ä¸æ¹èå¹´ç¥¨-å©éå®¢\"\n\t\t},\n\t\t{\n\t\t\t\"count\":4,\n\t\t\t\"type\":\"èç¥¨-å¿ç«¥ç¥¨\"\n\t\t},\n\t\t{\n\t\t\t\"count\":3,\n\t\t\t\"type\":\"å°å·åºåå¢å¿ç«¥ç¥¨-å©éå®¢\"\n\t\t},\n\t\t{\n\t\t\t\"count\":3,\n\t\t\t\"type\":\"ä¸æ¹æäººç¥¨\"\n\t\t},\n\t\t{\n\t\t\t\"count\":2,\n\t\t\t\"type\":\"ï¼å°å·åºåå¢+ä¸æ¹ï¼å¿ç«¥ç¥¨-å©éå®¢\"\n\t\t},\n\t\t{\n\t\t\t\"count\":2,\n\t\t\t\"type\":\"å°å·åºåå¢èå¹´ç¥¨-å©éå®¢\"\n\t\t},\n\t\t{\n\t\t\t\"count\":2,\n\t\t\t\"type\":\"èç¥¨-å¢éæäººç¥¨\"\n\t\t},\n\t\t{\n\t\t\t\"count\":1,\n\t\t\t\"type\":\"å°å·åå­¦çå¢é\"\n\t\t},\n\t\t{\n\t\t\t\"count\":1,\n\t\t\t\"type\":\"å¢éåä»·ç¥¨\"\n\t\t},\n\t\t{\n\t\t\t\"count\":1,\n\t\t\t\"type\":\"ä¸æ¹å¯¼æè´¹100\"\n\t\t},\n\t\t{\n\t\t\t\"count\":1,\n\t\t\t\"type\":\"èç¥¨-å¢éåä»·ç¥¨\"\n\t\t},\n\t\t{\n\t\t\t\"count\":1,\n\t\t\t\"type\":\"ï¼å°å·åºåå¢+ä¸æ¹ï¼èå¹´ç¥¨-å©éå®¢\"\n\t\t},\n\t\t{\n\t\t\t\"count\":1,\n\t\t\t\"type\":\"å¢éæäººç¥¨\"\n\t\t}\n\t],\n\t\"message\":\"è¯·æ±æå\",\n\t\"success\":true\n}"
+  }
+} ]
